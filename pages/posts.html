@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/posts.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="site-nav">
+            <div class="nav-links">
+                <a href="/pages/index.html">Back to Login</a>
+                <a href="#">My Posts</a>
+                <a href="#">Admin</a>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="search">
+                <i class="fa-solid fa-xmark none"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </nav>
+        <select name="select" id="select">
+            <option value="all">all posts</option>
+        </select>
+        <ul class="posts-wrapper"></ul>
+    </div>
+
+    <script src="/js/posts.js"></script>
+</body>
+
+</html>

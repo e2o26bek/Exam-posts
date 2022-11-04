@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(202, 245, 238);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.site-nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(225, 251, 255);
+    border-bottom: 2px solid rgb(75, 75, 202);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sign {
+    width: 170px;
+    color: aqua;
+    background-color: rgb(19, 13, 59);
+    border-radius: 10px;
+    border: 2px solid aqua;
+    font-size: 20px;
+    transition: all 0.7s;
+}
+
+.sign:hover {
+    cursor: pointer;
+    transform: scaleX(1.1);
+}
+
+.site-nav img {
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.login-div {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(225, 251, 255);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: none;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.login {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 50px;
+    background-color: rgb(19, 13, 59);
+    border: 2px solid aqua;
+    color: aqua;
+    font-size: 20px;
+}
+
+.login {
+    margin-top: 100px;
+}
+
+.login-btn {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(19, 13, 59);
+    border: 2px solid aqua;
+    font-size: 20px;
+    transition: all 0.7s;
+    color: aqua;
+    border-radius: 10px;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.flex {
+    display: flex;
+}
+
+.password-wrapper {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 50px;
+    background-color: rgb(19, 13, 59);
+    border: 2px solid aqua;
+    color: aqua;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.password {
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: aqua;
+    font-size: 20px;
+}
+
+.fa-regular {
+    font-size: 20px;
+    color: aqua;
+    cursor: pointer;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
